@@ -1,0 +1,68 @@
+Output File: VisualizationTool_Output.txt
+Binary Tree Outputs
+
+    Binary Tree Insertion
+    Input: insert(10), insert(5), insert(15)
+    Output:
+        In-order Traversal: [5, 10, 15]
+        Pre-order Traversal: [10, 5, 15]
+        Post-order Traversal: [5, 15, 10]
+
+    AVL Tree Balancing
+    Input: insert(30), insert(20), insert(10)
+    Output:
+        Root after balancing: 20
+        In-order Traversal: [10, 20, 30]
+
+Graph Outputs
+
+    Graph BFS Traversal
+    Input: addEdge(A, B), addEdge(A, C), addEdge(B, D), BFS(A)
+    Output:
+        BFS Traversal: [A, B, C, D]
+
+    Graph DFS Traversal
+    Input: addEdge(A, B), addEdge(A, C), addEdge(B, D), DFS(A)
+    Output:
+        DFS Traversal: [A, B, D, C]
+
+    Dijkstra's Algorithm
+    Input: addEdge(A, B, 1), addEdge(B, C, 2), addEdge(A, C, 4), shortestPath(A, C)
+    Output:
+        Shortest Path: A -> B -> C
+        Path Cost: 3
+
+    Bellman-Ford Algorithm
+    Input: addEdge(A, B, 1), addEdge(B, C, -2), addEdge(A, C, 4), shortestPath(A, C)
+    Output:
+        Shortest Path: A -> B -> C
+        Path Cost: -1
+
+    Prim's Algorithm
+    Input: addEdge(A, B, 1), addEdge(B, C, 2), addEdge(A, C, 3)
+    Output:
+        Minimum Spanning Tree: A-B, B-C
+        Total Weight: 3
+
+    Kruskal's Algorithm
+    Input: addEdge(A, B, 1), addEdge(B, C, 2), addEdge(A, C, 3)
+    Output:
+        Minimum Spanning Tree: A-B, B-C
+        Total Weight: 3
+
+Dynamic Data Visualization Tool Outputs
+
+    Binary Tree Visualization
+        Tree Structure:
+
+          10
+        /    \
+       5     15
+
+    Tree Traversal Path Highlighted: In-order: [5 -> 10 -> 15]
+
+Graph Visualization
+
+    Graph Nodes: [A, B, C, D]
+    Graph Edges: [A-B (1), A-C (3), B-D (2)]
+    Highlighted Path for BFS: [A -> B -> C -> D]
